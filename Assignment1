@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main(){
+    int password=1;
+    while(1){
+    printf("Enter password(Integer only):\n");
+    scanf("%d",&password);
+     if(password==1){
+        printf("Access granted!\n");
+         break;
+     }
+     else if(password==-1){
+         printf("Exiting the Application.\n");
+         break;
+     }
+     else{
+         printf("Access denied.\n");
+         printf("**To exit enter -1.**\n\n");
+     }
+     }
+    return 0;
+}
