@@ -6,6 +6,7 @@ int main(){
     scanf("%d",&password);
      if(password==1){
         printf("Access granted!\n");
+        printf("Welcome back User!");
          break;
      }
      else if(password==-1){
