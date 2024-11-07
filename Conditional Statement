@@ -11,13 +11,13 @@ int main(){
         printf("Access granted!\n");
          break;
      }
-     else if(strcmp(input, "E")==0){
+     else if(strcmp(input, "-1")==0){
          printf("Exiting the Application.\n");
          break;
      }
      else{
          printf("Access denied.\n");
-         printf("**To exit enter E.**\n\n");
+         printf("**To exit enter -1.**\n\n");
      }
      }
     return 0;
